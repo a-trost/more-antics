@@ -1,0 +1,58 @@
+{
+  "id": "content_grid",
+  "type": "SharedSlice",
+  "name": "ContentGrid",
+  "description": "ContentGrid",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ContentGrid",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1200,
+              "height": 500
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "buttonText": {
+          "config": {
+            "label": "Button Text",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

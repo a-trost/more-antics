@@ -2,7 +2,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { createResolver } from "next-slicezone/resolver";
 
-export default class extends Document {
+class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
     await createResolver();
@@ -12,7 +12,17 @@ export default class extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <script
+            async
+            defer
+            src="https://static.cdn.prismic.io/prismic.js?new=true&repo=some-antics-stream"
+          ></script>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
@@ -21,3 +31,5 @@ export default class extends Document {
     );
   }
 }
+
+export default MyDocument;

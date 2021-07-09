@@ -1,0 +1,36 @@
+{
+  "id": "blog_cards",
+  "type": "SharedSlice",
+  "name": "BlogCards",
+  "description": "BlogCards",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BlogCards",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "blogPost": {
+          "config": {
+            "label": "Blog Post",
+            "select": "document",
+            "customtypes": [
+              "blog"
+            ]
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

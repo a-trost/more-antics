@@ -16,7 +16,19 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "hello_slice": {
+            "hero_section": {
+              "type": "SharedSlice"
+            },
+            "blog_cards": {
+              "type": "SharedSlice"
+            },
+            "content_grid": {
+              "type": "SharedSlice"
+            },
+            "contact_form": {
+              "type": "SharedSlice"
+            },
+            "navigation_bar": {
               "type": "SharedSlice"
             }
           }

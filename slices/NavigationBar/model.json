@@ -1,0 +1,52 @@
+{
+  "id": "navigation_bar",
+  "type": "SharedSlice",
+  "name": "NavigationBar",
+  "description": "NavigationBar",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "NavigationBar",
+      "primary": {
+        "logo": {
+          "config": {
+            "label": "Logo",
+            "constraint": {
+              "width": 75,
+              "height": 66
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "title": {
+          "config": {
+            "label": "Site Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

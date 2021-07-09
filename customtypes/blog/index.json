@@ -1,0 +1,48 @@
+{
+  "id": "blog",
+  "label": "Blog Post",
+  "status": true,
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "category": {
+        "type": "Select",
+        "config": {
+          "label": "Category",
+          "placeholder": "",
+          "options": [
+            "html",
+            "css",
+            "javascript"
+          ],
+          "default_value": "html"
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "label": "Image",
+          "constraint": {
+            "width": 720,
+            "height": 400
+          },
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

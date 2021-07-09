@@ -1,8 +1,19 @@
 {
   "_cts": {
-    "page": {}
+    "page": {},
+    "blog": {},
+    "navigation": {}
   },
   "slices": {
-    "HelloSlice": {}
+    "HeroSection": {},
+    "BlogCards": {},
+    "ContentGrid": {},
+    "ContactForm": {},
+    "NavigationBar": {
+      "default-slice": {
+        "primary": {},
+        "items": {}
+      }
+    }
   }
 }
