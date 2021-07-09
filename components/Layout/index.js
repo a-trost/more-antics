@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
+import Navigation from "../Navigation";
 import LinkButton from "../LinkButton";
 import { useRouter } from "next/router";
 
@@ -8,6 +9,7 @@ export default function Layout({ children }) {
 
   return (
     <div>
+      <Navigation />
       {children}
       <Footer />
       {isPreview ? (

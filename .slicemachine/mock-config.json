@@ -8,12 +8,6 @@
     "HeroSection": {},
     "BlogCards": {},
     "ContentGrid": {},
-    "ContactForm": {},
-    "NavigationBar": {
-      "default-slice": {
-        "primary": {},
-        "items": {}
-      }
-    }
+    "ContactForm": {}
   }
 }
